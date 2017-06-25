@@ -1,0 +1,35 @@
+{
+  "name": "react-switchcase",
+  "version": "1.0.0",
+  "description": "React switch case component",
+  "main": "lib/russianMap.js",
+  "scripts": {
+    "build:commonjs": "./node_modules/.bin/babel src --out-dir lib",
+    "build": "npm run build:commonjs",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaeum/react-switchcase.git"
+  },
+  "keywords": [
+    "react",
+    "switch",
+    "case"
+  ],
+  "author": {
+    "name": "vaeum"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaeum/react-switchcase/issues"
+  },
+  "homepage": "https://github.com/vaeum/react-switchcase#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
