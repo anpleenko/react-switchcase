@@ -2,7 +2,7 @@
   "name": "react-switchcase",
   "version": "1.0.0",
   "description": "React switch case component",
-  "main": "lib/russianMap.js",
+  "main": "lib/index.js",
   "scripts": {
     "build:commonjs": "./node_modules/.bin/babel src --out-dir lib",
     "build": "npm run build:commonjs",
